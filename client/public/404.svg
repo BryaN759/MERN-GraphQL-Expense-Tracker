@@ -1,0 +1,11 @@
+<svg width="631" height="379" viewBox="0 0 631 379" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF057C;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8D0B93;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#321575;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="50%" y="45%" text-anchor="middle" font-family="Arial, sans-serif" font-size="150px" font-weight="bold" fill="url(#gradient)">404</text>
+  <text x="50%" y="75%" text-anchor="middle" font-family="Arial, sans-serif" font-size="50px" fill="url(#gradient)">Page Not Found</text>
+</svg>
