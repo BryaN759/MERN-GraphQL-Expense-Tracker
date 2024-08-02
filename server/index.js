@@ -34,7 +34,8 @@ const store = new MongoDBStore({
     collection: 'sessions'
 });
 
-store.on('error', (err) => console.log(err));
+store.on('connected', () => console.log('Session store connected'));
+store.on('error', (err) => console.log('Session Store Error:', err));
 
 app.use(
     session({
